@@ -51,22 +51,33 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 2em auto;
   padding: 1em;
 }
 
 .showcase__fave {
-  max-width: 25vw;
-  height: 50vh;
+  width: 25vw;
+  min-height: 60vh;
+  border-radius: 50px;
+  box-shadow: 1px 3px #000;
 }
 
-.showcase__fave img {
+.showcase__figure {
+  margin: 0;
+}
+
+.showcase__figure img {
   width: 100%;
-  height: auto;
+  min-height: 13.5em;
+  border-radius: 50px 50px 0 0;
 }
 
 .showcase p {
   font-size: 1.4em;
+  text-align: center;
+}
+
+.centered {
   text-align: center;
 }
